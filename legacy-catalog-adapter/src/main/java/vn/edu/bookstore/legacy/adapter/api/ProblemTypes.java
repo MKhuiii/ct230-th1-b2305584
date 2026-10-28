@@ -9,7 +9,8 @@ public final class ProblemTypes {
     public static final URI BOOK_NOT_FOUND = URI.create(BASE + "book-not-found");
     public static final URI VALIDATION_FAILED = URI.create(BASE + "validation-failed");
     public static final URI UPSTREAM_UNAVAILABLE = URI.create(BASE + "upstream-unavailable");
-
+    public static final URI UPSTREAM_ERROR = URI.create(BASE + "upstream-error");
+    public static final URI UPSTREAM_TIMEOUT = URI.create(BASE + "upstream-timeout");
     private ProblemTypes() {
     }
 }
